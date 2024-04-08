@@ -14,11 +14,12 @@ if [ -f "$MyFile" ]; then
   fi
   # taking input for non interactive terminal
   project_id="$1"
-  response="$2"
-  using_typescript="$3"
-  use_pre_commit_lint="$4"
-  lint_script_command="$5"
-  issue_id="$6"
+  issue_id="$2"
+  response="$3"
+  using_typescript="$4"
+  use_pre_commit_lint="$5"
+  lint_script_command="$6"
+  
 
   # taking input for interactive terminal
   # read -r -p "Please provide the Project Id: " project_id
