@@ -163,9 +163,9 @@ update_scripts_section '"minor:release": "yarn standard-version -- --release-as 
 update_scripts_section '"major:release": "yarn standard-version -- --release-as major"'
 update_scripts_section '"patch:release": "yarn standard-version -- --release-as patch"'
 
-echo "---------------------Commited the changes as:- feat: $project_id-$issue_id changelog configuration setup done"
-git add .
-git commit -m "feat: $project_id-$issue_id changelog configuration setup done"
+# echo "---------------------Commited the changes as:- feat: $project_id-$issue_id changelog configuration setup done"
+# git add .
+# git commit -m "feat: $project_id-$issue_id changelog configuration setup done"
 
 
 
